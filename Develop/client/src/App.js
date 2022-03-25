@@ -7,6 +7,8 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { ApolloClient } from 'apollo-client';
 
 const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
   request: operation => {
     const token = localStorage.getItem("id_token");
 
