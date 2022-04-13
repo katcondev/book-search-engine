@@ -14,6 +14,7 @@ A MERN challenge that allows users to search for new books to read and can save 
 - [Questions](#questions)
 ## Installation
 npm run build from root directory.
+![Google-Book-Search-k](https://user-images.githubusercontent.com/90402597/163243872-2110092a-6e3c-4457-ad10-50e2f8b96cf2.gif)
 ## Usage
 a MERN stack challenge
 ## License
@@ -31,3 +32,4 @@ email me <br />
 <br />
 Email me with any questions: kat.contreras@gmail.com<br /><br />
   
+
